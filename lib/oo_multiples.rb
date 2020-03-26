@@ -8,7 +8,7 @@ class Multiples
   def collect_multiples
   counter = 0 
   newnum = []
-  while counter < @number - 1
+  while counter < (@number - 1)
   counter += 1
   if (counter % 3 == 0)
     newnum << (counter)
