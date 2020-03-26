@@ -28,5 +28,5 @@ class Multiples
     i += 1
   end
   return total
-end
+  end
 end
