@@ -19,7 +19,7 @@ class Multiples
   return newnum
   end
   
-  def sum_multiple
+  def sum_multiples
   num_array = collect_multiples(@number)
   total = 0
   i = 0
