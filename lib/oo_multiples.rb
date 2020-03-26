@@ -19,4 +19,6 @@ class Multiples
   return newnum
   end
   
+  def sum_multiple
+    
 end
