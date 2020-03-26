@@ -20,7 +20,7 @@ class Multiples
   end
   
   def sum_multiples
-  num_array = collect_multiples(@number)
+  num_array = collect_multiples
   total = 0
   i = 0
   num_array.length.times do 
