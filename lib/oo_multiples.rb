@@ -20,5 +20,12 @@ class Multiples
   end
   
   def sum_multiple
-    
+  num_array = collect_multiples(@number)
+  total = 0
+  i = 0
+  num_array.length.times do 
+    total += num_array[i]
+    i += 1
+  end
+  return total
 end
