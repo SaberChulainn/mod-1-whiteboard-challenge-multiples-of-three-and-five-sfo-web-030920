@@ -29,3 +29,4 @@ class Multiples
   end
   return total
 end
+end
